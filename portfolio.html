@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vaibhav Goswami | Software Developer</title>
+<meta name="description" content="Vaibhav Goswami is a B.Tech CSE (AI/ML) student and software developer building scalable backend systems, secure REST APIs and ML platforms.">
+<style>
+:root{--bg:#f7f8fc;--card:#fff;--tx:#12152a;--mut:#586082;--ac:#4f46e5;--ac2:#0891b2;--bd:#e3e6f2;--chip:#eef0ff;--glow:rgba(79,70,229,.14);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#090b17;--card:#10132a;--tx:#eef0fc;--mut:#9ba2c8;--ac:#818cf8;--ac2:#22d3ee;--bd:#222749;--chip:#1a1e40;--glow:rgba(129,140,248,.18)}}
+:root[data-theme="dark"]{--bg:#090b17;--card:#10132a;--tx:#eef0fc;--mut:#9ba2c8;--ac:#818cf8;--ac2:#22d3ee;--bd:#222749;--chip:#1a1e40;--glow:rgba(129,140,248,.18)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 20px;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd)}
+nav .logo{font-weight:700;color:var(--ac);white-space:nowrap}
+nav .links{display:flex;gap:4px;overflow-x:auto;font-size:14px;color:var(--mut);scrollbar-width:none}
+nav .links a{padding:4px 10px;border-radius:8px;white-space:nowrap}nav .links a:hover,nav .links a.on{color:var(--ac);background:var(--chip)}
+#tg{border:1px solid var(--bd);background:var(--card);color:var(--tx);width:34px;height:34px;border-radius:10px;cursor:pointer;font-size:15px;flex:none}
+section{max-width:940px;margin:0 auto;padding:60px 20px}
+h2{font-size:28px;margin:0 0 6px;letter-spacing:-.5px}.eyebrow{color:var(--ac2);font-size:13px;margin-bottom:6px;display:block}
+.lead{color:var(--mut);margin:0 0 28px}
+#hero{position:relative;min-height:82vh;display:flex;flex-direction:column;justify-content:center;gap:14px;overflow:hidden}
+#hero::before{content:"";position:absolute;inset:-20% -10% auto auto;width:520px;height:520px;background:radial-gradient(circle,var(--glow),transparent 65%);z-index:-1;pointer-events:none}
+.pill{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;padding:5px 14px;border:1px solid var(--bd);background:var(--card);border-radius:999px;font-size:13px;color:var(--mut)}
+.dot{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 0 rgba(34,197,94,.6);animation:p 2s infinite}@keyframes p{70%{box-shadow:0 0 0 8px rgba(34,197,94,0)}}
+.avatar{width:88px;height:88px;border-radius:24px;display:grid;place-items:center;font-size:32px;font-weight:800;color:#fff;background:linear-gradient(135deg,var(--ac),var(--ac2));box-shadow:0 10px 30px var(--glow)}
+h1{font-size:clamp(38px,9vw,68px);line-height:1.05;margin:4px 0 0;letter-spacing:-1.5px}
+h1 span{background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{font-size:clamp(17px,4vw,24px);color:var(--ac2);min-height:1.6em}.cur{animation:b 1s steps(2) infinite}@keyframes b{50%{opacity:0}}
+.tag{color:var(--mut);max-width:600px;font-size:17px}
+.row{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:12px;border:1px solid var(--bd);background:var(--card);font-weight:600;font-size:15px;transition:.2s}
+.btn svg{width:17px;height:17px;fill:currentColor}.btn.p{background:var(--ac);color:#fff;border-color:var(--ac)}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px var(--glow)}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:22px;transition:.25s}
+.card:hover{border-color:var(--ac)}
+.who{color:var(--ac2);font-size:14px;margin-bottom:10px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:20px}
+.stat{background:var(--chip);border-radius:12px;padding:14px;text-align:center}.stat b{display:block;font-size:24px;color:var(--ac)}.stat span{font-size:12px;color:var(--mut)}
+.tl{position:relative;padding-left:26px;border-left:2px solid var(--bd)}.tl::before{content:"";position:absolute;left:-7px;top:26px;width:12px;height:12px;border-radius:50%;background:var(--ac);box-shadow:0 0 0 4px var(--glow)}
+.top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px}.top h3{margin:0;font-size:18px}.date{color:var(--mut);font-size:13px}
+.sub{color:var(--ac);font-weight:600;margin:2px 0 6px}ul{margin:8px 0 0;padding-left:20px}li{margin:7px 0;color:var(--mut)}li b{color:var(--tx);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.chip{background:var(--chip);color:var(--ac);padding:3px 11px;border-radius:999px;font-size:13px;font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}.grid h3{margin:0;font-size:16px}
+.proj{display:flex;flex-direction:column;gap:6px}.proj .badge{align-self:flex-start;font-size:11px;padding:2px 10px;border-radius:999px;background:linear-gradient(90deg,var(--ac),var(--ac2));color:#fff;font-weight:600}
+.proj ul{flex:1}
+.edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+#contact{text-align:center}#contact .row{justify-content:center}
+footer{text-align:center;color:var(--mut);font-size:13px;padding:26px}
+#up{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));width:42px;height:42px;border-radius:12px;border:1px solid var(--bd);background:var(--card);color:var(--ac);cursor:pointer;font-size:18px;opacity:0;pointer-events:none;transition:.3s}
+#up.show{opacity:1;pointer-events:auto}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.dot,.cur{animation:none}html{scroll-behavior:auto}}
+</style></head><body>
+<nav><a class="logo mono" href="#hero">vg.dev</a>
+<div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+<button id="tg" aria-label="Toggle theme">◐</button></nav>
+
+<section id="hero">
+<span class="pill"><i class="dot"></i>Open to SDE internships</span>
+<div class="avatar">VG</div>
+<h1>Hi, I’m <span>Vaibhav Goswami</span></h1>
+<div class="role mono"><span id="role">Software Developer</span><span class="cur">|</span></div>
+<p class="tag">I build scalable backend systems, secure REST APIs and ML-powered products. B.Tech CSE (AI/ML) student at JUIT, graduating 2027.</p>
+<div class="row">
+<a class="btn p" href="#contact">Get in touch</a>
+<a class="btn" href="https://github.com/vaibhav24x" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.800 0c2.200-1.500 3.200-1.200 3.200-1.200.6 1.600.2 2.800.1 3.100.7.800 1.200 1.800 1.200 3.100 0 4.400-2.700 5.400-5.300 5.700.4.400.8 1.100.8 2.200v3.300c0 .3.2.7.8.6A11.500 11.500 0 0 0 12 .5z"/></svg>GitHub</a>
+<a class="btn" href="https://linkedin.com/in/vaibhav-goswami-86775a326" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M20.400 20.500h-3.600v-5.600c0-1.300 0-3-1.800-3s-2.100 1.400-2.100 2.900v5.700H9.300V9h3.400v1.600c.5-.9 1.600-1.800 3.400-1.800 3.600 0 4.300 2.400 4.300 5.500v6.200zM5.300 7.400a2.100 2.100 0 1 1 0-4.100 2.100 2.100 0 0 1 0 4.100zM7.100 20.500H3.600V9h3.500v11.500z"/></svg>LinkedIn</a>
+</div></section>
+
+<section id="about" class="rv"><span class="eyebrow mono">01 / about</span><h2>About me</h2>
+<div class="card"><div class="who mono">$: /whoami</div>
+<p style="margin-top:0">I’m a software developer who enjoys turning real problems into shipped, working products. I work across the stack, from Node.js and Spring Boot services to Dockerized FastAPI platforms and deep-learning models.</p>
+<p>I care about clean code, solid database design, secure authentication and systems that hold up under load. I’m currently looking for an SDE internship where I can build at scale and learn from strong engineering teams.</p>
+<div class="stats"><div class="stat"><b data-n="96.4" data-s="%">96.4%</b><span>model accuracy</span></div><div class="stat"><b>&lt;200 ms</b><span>edge inference</span></div><div class="stat"><b data-n="3">3</b><span>major projects</span></div><div class="stat"><b>NSS</b><span>senior volunteer</span></div></div></div></section>
+
+<section id="experience" class="rv"><span class="eyebrow mono">02 / experience</span><h2>Experience</h2>
+<div class="card tl"><div class="top"><h3>Software Development Intern</h3><span class="date mono">Jun 2026 – Jul 2026</span></div>
+<div class="sub">Learn to Upgrade · Remote</div>
+<ul><li>Developed <b>full-stack features</b> with React.js, Node.js, Express.js and PostgreSQL, building REST APIs and integrating the database through <b>Prisma ORM</b>.</li>
+<li>Implemented <b>JWT authentication</b> with Google OAuth 2.0 and GitHub OAuth sign-in, and enforced <b>role-based access control (RBAC)</b> on protected routes.</li>
+<li>Integrated <b>Socket.IO with the Redis adapter</b> to deliver real-time team chat and notifications.</li>
+<li>Tested and debugged API endpoints with <b>Postman</b>; managed source code with Git/GitHub.</li></ul></div></section>
+
+<section id="skills" class="rv"><span class="eyebrow mono">03 / skills</span><h2>Tech stack</h2><p class="lead">Tools and concepts I use to build and ship.</p><div class="grid" id="skillGrid"></div></section>
+
+<section id="projects" class="rv"><span class="eyebrow mono">04 / projects</span><h2>Featured projects</h2><p class="lead">Systems I designed, built and measured.</p>
+<div class="grid">
+<div class="card proj"><span class="badge">Backend · ML Infra</span><h3>CloudML: Model Serving Platform</h3>
+<ul><li><b>Microservice-style</b> serving platform with FastAPI, containerized with Docker.</li><li><b>3NF PostgreSQL schema</b> with indexing and query-plan-driven optimization.</li><li><b>Transaction-safe writes</b> using row-level and optimistic locking.</li><li><b>Redis caching</b> for repeated inference; CI/CD with GitHub Actions; MLflow tracking.</li></ul>
+<div class="chips"><span class="chip">FastAPI</span><span class="chip">Docker</span><span class="chip">PostgreSQL</span><span class="chip">Redis</span><span class="chip">MLflow</span></div></div>
+<div class="card proj"><span class="badge">Full-Stack</span><h3>DevFlow AI: Team Collaboration Platform</h3>
+<ul><li><b>JWT + Google/GitHub OAuth</b> with RBAC-protected routes.</li><li><b>Real-time chat and notifications</b> via Socket.IO and Redis adapter.</li><li>Cloudinary uploads and an <b>AI assistant</b> built with prompt engineering.</li></ul>
+<div class="chips"><span class="chip">React.js</span><span class="chip">Node.js</span><span class="chip">Prisma</span><span class="chip">Socket.IO</span></div></div>
+<div class="card proj"><span class="badge">Deep Learning</span><h3>PlantCare AI: Disease Diagnosis</h3>
+<ul><li>MobileNetV2 transfer learning reaching <b>96.4% top-1 accuracy</b> across 38 classes.</li><li><b>14 MB model, &lt;200 ms inference</b> for edge deployment.</li><li><b>Grad-CAM explainability</b>; evaluated with confusion matrix and per-class F1.</li><li>Owned architecture and training in a 4-member team.</li></ul>
+<div class="chips"><span class="chip">TensorFlow</span><span class="chip">Keras</span><span class="chip">OpenCV</span></div></div>
+</div></section>
+
+<section id="education" class="rv"><span class="eyebrow mono">05 / education</span><h2>Education &amp; volunteering</h2>
+<div class="edu">
+<div class="card"><div class="top"><h3>B.Tech, CSE (AI/ML)</h3><span class="date mono">Class of 2027</span></div><div class="sub">Jaypee University of Information Technology, Solan</div></div>
+<div class="card"><div class="top"><h3>Senior Volunteer, NSS</h3><span class="date mono">Certified</span></div><ul><li>Took part in awareness campaigns and donation drives; helped organise and conduct welfare events.</li></ul></div>
+</div></section>
+
+<section id="contact" class="rv"><span class="eyebrow mono">06 / contact</span><h2>Let’s build something</h2>
+<p class="lead">I’m open to SDE internship opportunities. Drop me a message anytime.</p>
+<div class="row"><a class="btn p" href="mailto:vaibhavgoswami20930@gmail.com">vaibhavgoswami20930@gmail.com</a><a class="btn" href="https://linkedin.com/in/vaibhav-goswami-86775a326" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/vaibhav24x" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://vaibhav24x.github.io/" target="_blank" rel="noopener">Portfolio</a></div></section>
+<footer class="mono">© 2026 Vaibhav Goswami</footer>
+<button id="up" aria-label="Back to top">↑</button>
+
+<script>
+var skills={"Languages":["C++","Java","Python","JavaScript","SQL"],"CS Fundamentals":["DSA","OOP & Design","DBMS","Operating Systems","Computer Networks","System Design"],"Backend & APIs":["Spring Boot","Spring Security","Node.js","Express.js","FastAPI","Flask","REST","JWT","OAuth 2.0","RBAC","Socket.IO"],"Databases":["PostgreSQL","MySQL","Redis","Prisma ORM","Schema Design","Indexing","Transactions"],"Testing & Engineering":["JUnit","Unit & Integration Testing","Postman","Debugging","Clean Code","SDLC"],"Tools & Cloud":["Git","GitHub","Linux","Docker","GitHub Actions","AWS","React.js","HTML","CSS"],"AI/ML":["TensorFlow","Keras","OpenCV","Pandas","NumPy","MLflow"]};
+var g=document.getElementById("skillGrid");
+Object.keys(skills).forEach(function(k){var d=document.createElement("div");d.className="card";d.innerHTML="<h3>"+k.replace(/&/g,"&amp;")+"</h3><div class='chips'>"+skills[k].map(function(s){return "<span class='chip'>"+s.replace(/&/g,"&amp;")+"</span>"}).join("")+"</div>";g.appendChild(d)});
+var roles=["Software Developer","Backend Engineer","Full-Stack Developer","ML Enthusiast"],i=0,el=document.getElementById("role");
+setInterval(function(){i=(i+1)%roles.length;el.textContent=roles[i]},2200);
+var rv=document.querySelectorAll(".rv");
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.08});rv.forEach(function(r){io.observe(r)})}else{rv.forEach(function(r){r.classList.add("in")})}
+var links=document.querySelectorAll(".links a"),secs=["about","experience","skills","projects","education","contact"];
+var up=document.getElementById("up");
+window.addEventListener("scroll",function(){var y=window.scrollY+120,cur="";secs.forEach(function(s){var e=document.getElementById(s);if(e&&e.offsetTop<=y)cur=s});links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+cur)});up.classList.toggle("show",window.scrollY>500)},{passive:true});
+up.onclick=function(){window.scrollTo({top:0,behavior:"smooth"})};
+var root=document.documentElement;
+try{var t=localStorage.getItem("theme");if(t)root.setAttribute("data-theme",t)}catch(e){}
+document.getElementById("tg").onclick=function(){var dark=root.getAttribute("data-theme")?root.getAttribute("data-theme")==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;var n=dark?"light":"dark";root.setAttribute("data-theme",n);try{localStorage.setItem("theme",n)}catch(e){}};
+</script></body></html>
